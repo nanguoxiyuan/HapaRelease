@@ -1,0 +1,1 @@
+# pyinstaller -w -F testcase/test_release.py
