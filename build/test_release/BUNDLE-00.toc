@@ -1,0 +1,3 @@
+([('test_release',
+   '/Users/mac/PycharmProjects/HapaRelease/dist/test_release',
+   'EXECUTABLE')],)
