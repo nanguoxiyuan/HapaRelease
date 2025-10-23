@@ -36,4 +36,4 @@ def simple_excel_upload():
 
     root.mainloop()  # 启动GUI循环，用户操作后退出
     root.destroy()  # 彻底销毁窗口
-    return selected_path[0]  # 返回选择的文件路径
+    return selected_path[0]

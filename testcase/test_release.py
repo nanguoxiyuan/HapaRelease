@@ -14,6 +14,7 @@ plac = Placement()
 host = Host
 authorization = plac.Authorization(excel_path)
 placementnum = plac.placement_num(excel_path)
+
 class Testcase_release:
     def test_release(self):
         try:
@@ -52,6 +53,12 @@ class Testcase_release:
                 log.info(f'状态码{i}：{code}')
                 result = rep.json()
                 log.info(f'投放结果{i}：{result}')
+        except KeyError as e:
+            log.error(f'有列表不存在：{e}')
+        except IndexError as e:
+            log.error(f'读取数据超出索引：{e}')
+        except ValueError as e:
+            log.error(f'数据错误或数据为空：{e}')
         except Exception as e:
             log.error(f'调用投放接口出错：{e}')
 
@@ -59,3 +66,5 @@ class Testcase_release:
 if __name__ == '__main__':
     a = Testcase_release()
     a.test_release()
+
+

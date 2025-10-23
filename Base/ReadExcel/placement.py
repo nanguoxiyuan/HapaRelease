@@ -181,5 +181,5 @@ class Placement:
     def Authorization(self,excel_path):
         pla = rea.read_excel(excel_path)
         authorization = pla.cell(row=2, column=10).value
-        log.info(f'用户Authorization{authorization}')
+        log.info(f'用户Authorization：{authorization}')
         return authorization
