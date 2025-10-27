@@ -5,9 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_release.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_release.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Config/upload_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Config/upload_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/ReadExcel/placement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/ReadExcel/placement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/ReadExcel/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/ReadExcel/read_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/BUNDLE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/start_release.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/warn-start_release.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/xref-start_release.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release.app/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release.app/Contents/MacOS/hapa.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release.app/Contents/MacOS/start_release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release.app/Contents/Resources/icon-windowed.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release.app/Contents/_CodeSignature/CodeResources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hapa.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_release.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/hapa.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

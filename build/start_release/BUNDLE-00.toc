@@ -1,3 +1,0 @@
-([('start_release',
-   '/Users/mac/PycharmProjects/HapaRelease/dist/start_release',
-   'EXECUTABLE')],)

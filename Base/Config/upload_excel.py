@@ -1,6 +1,6 @@
 import os
 import streamlit as st
-from typing import List, Optional
+from typing import Optional
 
 
 def simple_excel_upload() -> Optional[bytes]:
