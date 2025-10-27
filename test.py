@@ -3,3 +3,4 @@
 # pyinstaller -F start_release.py
 
 
+#  streamlit run start_release.py
