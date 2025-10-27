@@ -1,0 +1,22 @@
+[2025-10-27 15:53:05] - test_release.py - line:25 - ERROR: 接口调用出错：openpyxl does not support b'.xmlpk\x05\x06\x00\x00\x00\x00\x11\x00\x11\x00\x07\x04\x00\x00\xd6"\x00\x00\x00\x00' file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+[2025-10-27 15:54:02] - test_release.py - line:25 - ERROR: 接口调用出错：openpyxl does not support b'.xmlpk\x05\x06\x00\x00\x00\x00\x11\x00\x11\x00\x07\x04\x00\x00\xd6"\x00\x00\x00\x00' file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+[2025-10-27 16:05:57] - placement.py - line:209 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-27 16:05:57] - test_release.py - line:23 - INFO: 读取到 1 条投放数据
+[2025-10-27 16:05:57] - test_release.py - line:23 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-27 16:05:57] - placement.py - line:44 - INFO: 需要投放的时间：2025 10-27 19:00，时间戳是：1761562800000
+[2025-10-27 16:05:57] - placement.py - line:48 - INFO: 开始时间:[1761562800000]
+[2025-10-27 16:05:57] - placement.py - line:64 - INFO: 过期的时间：2025 10-28 19:00，时间戳是：1761649200000
+[2025-10-27 16:05:57] - placement.py - line:68 - INFO: 过期时间:[1761649200000]
+[2025-10-27 16:05:57] - placement.py - line:84 - INFO: 盒子ID：[2435]
+[2025-10-27 16:05:57] - placement.py - line:125 - INFO: 是否需要解锁：['true']
+[2025-10-27 16:05:57] - placement.py - line:106 - INFO: 解锁金额列表：[20]
+[2025-10-27 16:05:57] - placement.py - line:125 - INFO: 是否需要解锁：['true']
+[2025-10-27 16:05:57] - placement.py - line:144 - INFO: 是否区分时区：[2]
+[2025-10-27 16:05:57] - placement.py - line:163 - INFO: 数量：[1]
+[2025-10-27 16:05:57] - placement.py - line:125 - INFO: 是否需要解锁：['true']
+[2025-10-27 16:05:57] - placement.py - line:185 - INFO: 解锁类型：['top_up']
+[2025-10-27 16:05:57] - placement.py - line:201 - INFO: 用户列表：[['368776']]
+[2025-10-27 16:05:57] - test_release.py - line:23 - INFO: 参数 1：开始时间=1761562800000, 过期时间=1761649200000, 盒子ID=2435, 解锁金额=20, 是否解锁=true, 时区类型=2, 数量=1, 解锁类型=top_up, 用户ID=['368776']
+[2025-10-27 16:05:59] - test_release.py - line:23 - INFO: 状态码 1：200
+[2025-10-27 16:05:59] - test_release.py - line:23 - INFO: 投放结果 1：{'code': 0, 'msg': 'success', 'data': None}
+[2025-10-27 16:06:02] - test_release.py - line:23 - INFO: 所有数据处理完成

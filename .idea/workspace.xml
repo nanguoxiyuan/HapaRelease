@@ -6,6 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/Config/upload_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Config/upload_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/ReadExcel/placement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/ReadExcel/placement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PYZ-00.pyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/start_release.pkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/warn-start_release.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/start_release/xref-start_release.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/hapa.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/start_release" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_release.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_release.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_release.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -35,12 +55,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.start_release.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_release.executor": "Run",
     "Python.upload_excel.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +70,29 @@
       <recent name="$PROJECT_DIR$/Base/read_excel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_release">
+  <component name="RunManager" selected="Python.start_release">
+    <configuration name="start_release" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HapaRelease" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_release.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HapaRelease" />
       <option name="ENV_FILES" value="" />
@@ -117,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start_release" />
         <item itemvalue="Python.test_release" />
         <item itemvalue="Python.upload_excel" />
         <item itemvalue="Python.test" />
