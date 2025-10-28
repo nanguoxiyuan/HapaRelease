@@ -71,7 +71,7 @@ class Testcase_release:
                 self._log_to_web(
                     f"参数 {i}：开始时间={btime}, 过期时间={etime}, 盒子ID={itemid}, "
                     f"解锁金额={amount}, 是否解锁={lock} "
-                    f"数量={num}, 解锁类型={locktype}, 用户ID={userid}"
+                    f"数量={num}, 解锁类型={locktype}, 用户ID={userid},Authorization={Authorization}"
                 )
 
                 # 调用接口

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Base/ReadExcel/placement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/ReadExcel/placement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_release.py" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <recent name="$PROJECT_DIR$/Base/read_excel" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start_release">
+  <component name="RunManager" selected="Python.test">
     <configuration name="start_release" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HapaRelease" />
       <option name="ENV_FILES" value="" />
@@ -145,10 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.start_release" />
         <item itemvalue="Python.test_release" />
         <item itemvalue="Python.upload_excel" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
