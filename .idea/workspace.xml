@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/_2025_10_28__15_01____.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_10_28,_15_01_取消提交了更改_[更改]/shelved.patch" afterDir="false" />
+    <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_release.py" afterDir="false" />
     </list>
@@ -170,6 +168,19 @@
       <option name="presentableId" value="Default" />
       <updated>1761043329119</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1761635124260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761635124260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
