@@ -102,7 +102,6 @@ class Testcase_release:
                 result = rep.json()
                 self._log_to_web(f"投放结果 {i}：{result}")
 
-                # 延迟避免请求过于频繁
                 time.sleep(3)
 
             self._log_to_web("所有数据处理完成", "info")
