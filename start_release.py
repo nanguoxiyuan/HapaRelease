@@ -4,13 +4,13 @@ from testcase.test_release import Testcase_release
 
 
 def main():
-    password = st.text_input("请输入操作密码", type="password")  # type="password" 是隐藏输入，固定写法
+    password = st.text_input("           ", type="password")
     correct_password = "1"
     if not password:
         st.warning("请输入密码以继续操作")
         st.stop()
     elif password != correct_password:
-        st.error("密码错误！请重新输入")
+        st.error("秋芭比母内牛")
         st.stop()
     # 设置页面配置
     st.set_page_config(
