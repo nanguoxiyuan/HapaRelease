@@ -34,7 +34,6 @@ class Testcase_release:
             userId_List = self.plac.userIdList(self.excel_bytes)
             need_Amount = self.plac.needAmount(self.excel_bytes)
             need_Unlock = self.plac.needUnlock(self.excel_bytes)
-            send_type = self.plac.sendType(self.excel_bytes)
             total_Count = self.plac.totalCount(self.excel_bytes)
             unlock_Type = self.plac.unlockType(self.excel_bytes)
             Authorization = self.plac.Authorization(self.excel_bytes)
@@ -48,7 +47,6 @@ class Testcase_release:
             self._log_to_web(f'用户ID：{userId_List}')
             self._log_to_web(f'解锁金额：{need_Amount}')
             self._log_to_web(f'是否需要解锁：{need_Unlock}')
-            self._log_to_web(f'是否区分时区：{send_type}')
             self._log_to_web(f'投放盒子数量：{total_Count}')
             self._log_to_web(f'解锁类型：{unlock_Type}')
             self._log_to_web(f'Authorization：{Authorization}')
@@ -65,7 +63,6 @@ class Testcase_release:
                 itemid = self.plac.itemId(self.excel_bytes)[ind]
                 amount = self.plac.needAmount(self.excel_bytes)[ind]
                 lock = self.plac.needUnlock(self.excel_bytes)[ind]
-                sendtype = self.plac.sendType(self.excel_bytes)[ind]
                 num = self.plac.totalCount(self.excel_bytes)[ind]
                 locktype = self.plac.unlockType(self.excel_bytes)[ind]
                 userid = self.plac.userIdList(self.excel_bytes)[ind]
@@ -73,7 +70,7 @@ class Testcase_release:
                 # 打印参数日志
                 self._log_to_web(
                     f"参数 {i}：开始时间={btime}, 过期时间={etime}, 盒子ID={itemid}, "
-                    f"解锁金额={amount}, 是否解锁={lock}, 时区类型={sendtype}, "
+                    f"解锁金额={amount}, 是否解锁={lock} "
                     f"数量={num}, 解锁类型={locktype}, 用户ID={userid}"
                 )
 
@@ -90,7 +87,7 @@ class Testcase_release:
                     "itemId": itemid,
                     "needAmount": amount,
                     "needUnlock": lock,
-                    "sendType": sendtype,
+                    "sendType": 2,
                     "totalCount": num,
                     "unlockType": locktype,
                     "userIdList": userid

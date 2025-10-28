@@ -132,24 +132,24 @@ class Placement:
         log.info(f'是否需要解锁：{needUnlock_list}')
         return needUnlock_list
 
-    # 是否区分时区
-    def sendType(self,excel_path):
-        virtual_file = BytesIO(excel_path)
-        pla = openpyxl.load_workbook(virtual_file, data_only=True)
-        ws = pla.active
-        planum = self.placement_num(excel_path)
-        sendType_list = []
-        for i in range(2, planum + 2):
-            try:
-                df = ws.cell(row=i, column=9).value
-                if df is None:
-                    sendType_list.append(2)
-                else:
-                    sendType_list.append(df)
-            except Exception as e:
-                log.error(f'读取是否区分时区失败,{e}')
-        log.info(f'是否区分时区：{sendType_list}')
-        return sendType_list
+    # # 是否区分时区
+    # def sendType(self,excel_path):
+    #     virtual_file = BytesIO(excel_path)
+    #     pla = openpyxl.load_workbook(virtual_file, data_only=True)
+    #     ws = pla.active
+    #     planum = self.placement_num(excel_path)
+    #     sendType_list = []
+    #     for i in range(2, planum + 2):
+    #         try:
+    #             df = ws.cell(row=i, column=9).value
+    #             if df is None:
+    #                 sendType_list.append(2)
+    #             else:
+    #                 sendType_list.append(df)
+    #         except Exception as e:
+    #             log.error(f'读取是否区分时区失败,{e}')
+    #     log.info(f'是否区分时区：{sendType_list}')
+    #     return sendType_list
 
     # 数量
     def totalCount(self,excel_path):
@@ -212,7 +212,7 @@ class Placement:
         virtual_file = BytesIO(excel_path)
         pla = openpyxl.load_workbook(virtual_file, data_only=True)
         ws = pla.active
-        authorization = ws.cell(row=2, column=10).value
+        authorization = ws.cell(row=2, column=9).value
         log.info(f'用户Authorization：{authorization}')
         return authorization
 
