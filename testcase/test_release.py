@@ -87,7 +87,7 @@ class Testcase_release:
                     "itemId": itemid,
                     "needAmount": amount,
                     "needUnlock": lock,
-                    "sendType": 2,
+                    "sendType": '2',
                     "totalCount": num,
                     "unlockType": locktype,
                     "userIdList": userid
