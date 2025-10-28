@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0334da6-1241-4406-900a-439e6cc2993b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/_2025_10_28__15_01____.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_10_28,_15_01_取消提交了更改_[更改]/shelved.patch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/Config/Authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/Config/Authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base/ReadExcel/placement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/ReadExcel/placement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_release.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_release.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_release.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

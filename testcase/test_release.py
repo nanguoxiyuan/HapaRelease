@@ -60,10 +60,8 @@ class Testcase_release:
                 self._log_to_web(f"开始处理第 {i} 条数据（索引：{ind}）")
 
                 # 读取 Excel 中的参数（复用原逻辑）
-                btime = self.plac.beginTime(self.excel_bytes)[ind]
-                self._log_to_web(f'{btime}')
-                etime = self.plac.expireTime(self.excel_bytes)[ind]
-                self._log_to_web(f'{etime}')
+                btime,oribe = self.plac.beginTime(self.excel_bytes)[ind]
+                etime,oriex = self.plac.expireTime(self.excel_bytes)[ind]
                 itemid = self.plac.itemId(self.excel_bytes)[ind]
                 amount = self.plac.needAmount(self.excel_bytes)[ind]
                 lock = self.plac.needUnlock(self.excel_bytes)[ind]
