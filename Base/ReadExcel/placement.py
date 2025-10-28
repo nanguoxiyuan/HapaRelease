@@ -215,3 +215,6 @@ class Placement:
         authorization = ws.cell(row=2, column=10).value
         log.info(f'用户Authorization：{authorization}')
         return authorization
+
+
+
