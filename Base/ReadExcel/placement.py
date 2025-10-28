@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from Base.Log.log import Logger
 from Base.ReadExcel.read_excel import Read_Excel
 from io import BytesIO
@@ -33,11 +33,14 @@ class Placement:
         planum = self.placement_num(excel_path)
         beginTime_list = []
         original_beginTime_list = []
+        beijing_tz = timezone(timedelta(hours=8))
         for i in range(2,planum+2):
             try:
                 df = ws.cell(row=i,column=4).value
                 dt = datetime.strptime(df, "%Y %m-%d %H:%M")
-                timestamp_seconds = dt.timestamp()
+                dt_aware = dt.replace(tzinfo=beijing_tz)
+                dt_utc = dt_aware.astimezone(timezone.utc)
+                timestamp_seconds = dt_utc.timestamp()
                 timestamp_milliseconds = int(timestamp_seconds * 1000)
                 log.info(f'需要投放的时间：{df}，时间戳是：{timestamp_milliseconds}')
                 beginTime_list.append(timestamp_milliseconds)
@@ -55,11 +58,14 @@ class Placement:
         planum = self.placement_num(excel_path)
         expireTime_list = []
         original_expireTime_list = []
+        beijing_tz = timezone(timedelta(hours=8))
         for i in range(2, planum + 2):
             try:
                 df = ws.cell(row=i, column=5).value
                 dt = datetime.strptime(df, "%Y %m-%d %H:%M")
-                timestamp_seconds = dt.timestamp()
+                dt_aware = dt.replace(tzinfo=beijing_tz)
+                dt_utc = dt_aware.astimezone(timezone.utc)
+                timestamp_seconds = dt_utc.timestamp()
                 timestamp_milliseconds = int(timestamp_seconds * 1000)
                 log.info(f'过期的时间：{df}，时间戳是：{timestamp_milliseconds}')
                 expireTime_list.append(timestamp_milliseconds)
