@@ -1,0 +1,205 @@
+[2025-10-28 14:15:35] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:15:35] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:15:35] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:15:35] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:15:35] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:15:35] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:18:05] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:18:05] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:18:05] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:18:06] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:18:06] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:18:06] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:19:54] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:19:55] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:19:55] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:19:55] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:19:55] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:19:55] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:25:13] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:25:13] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:25:13] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:25:13] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:25:13] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:25:13] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:27:41] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:27:41] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:27:41] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:27:41] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:27:41] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:27:41] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:29:02] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:29:02] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:29:02] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:29:02] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:29:02] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:29:02] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:30:14] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:30:14] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:30:14] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:30:14] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:30:14] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:30:14] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:30:51] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:30:51] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:30:51] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:30:51] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:30:51] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:30:51] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:33:44] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:33:44] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:33:44] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:33:44] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:33:44] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:33:44] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:35:33] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:35:33] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:35:33] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:35:33] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:35:33] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:35:33] - test_release.py - line:21 - INFO: []
+[2025-10-28 14:35:33] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:35:33] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:35:33] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:35:33] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:36:04] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:36:04] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:36:04] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:36:04] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:36:04] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:36:04] - test_release.py - line:21 - INFO: 开始时间：[]
+[2025-10-28 14:36:04] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:36:04] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:36:04] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:36:04] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:36:26] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:36:26] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:36:26] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:36:26] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:36:26] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:36:26] - test_release.py - line:21 - INFO: 开始时间：[]
+[2025-10-28 14:36:26] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:36:26] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:36:26] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:36:26] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:37:41] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:37:41] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:37:41] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:37:41] - placement.py - line:81 - INFO: 盒子ID：[2664]
+[2025-10-28 14:37:41] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:37:41] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:37:41] - test_release.py - line:21 - INFO: 开始时间：[]
+[2025-10-28 14:37:41] - test_release.py - line:21 - INFO: 盒子ID：[2664]
+[2025-10-28 14:37:41] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:37:41] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:37:41] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:37:41] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:40:07] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:40:07] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:40:07] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:40:07] - placement.py - line:81 - INFO: 盒子ID：[2664]
+[2025-10-28 14:40:07] - placement.py - line:198 - INFO: 用户列表：[['368390']]
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 开始时间：[]
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 盒子ID：[2664]
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 用户ID：[['368390']]
+[2025-10-28 14:40:07] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:40:07] - placement.py - line:44 - ERROR: 读取需要投放的时间失败,unconverted data remains:  
+[2025-10-28 14:40:07] - placement.py - line:45 - INFO: 开始时间:[]
+[2025-10-28 14:40:07] - test_release.py - line:23 - ERROR: 数据索引超出范围：list index out of range
+[2025-10-28 14:45:24] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:45:24] - placement.py - line:41 - INFO: 需要投放的时间：2025 10-27 18:00，时间戳是：1761559200000
+[2025-10-28 14:45:24] - placement.py - line:45 - INFO: 开始时间:[1761559200000]
+[2025-10-28 14:45:24] - placement.py - line:81 - INFO: 盒子ID：[2664]
+[2025-10-28 14:45:25] - placement.py - line:198 - INFO: 用户列表：[['368390']]
+[2025-10-28 14:45:25] - placement.py - line:61 - INFO: 过期的时间：2025 10-28 18:00，时间戳是：1761645600000
+[2025-10-28 14:45:25] - placement.py - line:65 - INFO: 过期时间:[1761645600000]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:103 - INFO: 解锁金额列表：[20]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:141 - INFO: 是否区分时区：[1]
+[2025-10-28 14:45:25] - placement.py - line:160 - INFO: 数量：[1]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:182 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:45:25] - placement.py - line:206 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 开始时间：[1761559200000]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 过期时间：[1761645600000]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 盒子ID：[2664]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 用户ID：[['368390']]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 解锁金额：[20]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 是否区分时区：[1]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 投放盒子数量：[1]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:45:25] - placement.py - line:41 - INFO: 需要投放的时间：2025 10-27 18:00，时间戳是：1761559200000
+[2025-10-28 14:45:25] - placement.py - line:45 - INFO: 开始时间:[1761559200000]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 1761559200000
+[2025-10-28 14:45:25] - placement.py - line:61 - INFO: 过期的时间：2025 10-28 18:00，时间戳是：1761645600000
+[2025-10-28 14:45:25] - placement.py - line:65 - INFO: 过期时间:[1761645600000]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 1761645600000
+[2025-10-28 14:45:25] - placement.py - line:81 - INFO: 盒子ID：[2664]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:103 - INFO: 解锁金额列表：[20]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:141 - INFO: 是否区分时区：[1]
+[2025-10-28 14:45:25] - placement.py - line:160 - INFO: 数量：[1]
+[2025-10-28 14:45:25] - placement.py - line:122 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:45:25] - placement.py - line:182 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:45:25] - placement.py - line:198 - INFO: 用户列表：[['368390']]
+[2025-10-28 14:45:25] - test_release.py - line:21 - INFO: 参数 1：开始时间=1761559200000, 过期时间=1761645600000, 盒子ID=2664, 解锁金额=20, 是否解锁=true, 时区类型=1, 数量=1, 解锁类型=top_up, 用户ID=['368390']
+[2025-10-28 14:45:27] - test_release.py - line:21 - INFO: 状态码 1：200
+[2025-10-28 14:45:27] - test_release.py - line:21 - INFO: 投放结果 1：{'code': 0, 'msg': 'success', 'data': None}
+[2025-10-28 14:45:30] - test_release.py - line:21 - INFO: 所有数据处理完成
+[2025-10-28 14:50:42] - placement.py - line:210 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:50:42] - placement.py - line:42 - INFO: 需要投放的时间：2025 10-27 18:00，时间戳是：1761559200000
+[2025-10-28 14:50:42] - placement.py - line:47 - INFO: 开始时间:[1761559200000]
+[2025-10-28 14:50:42] - placement.py - line:64 - INFO: 过期的时间：2025 10-28 18:00，时间戳是：1761645600000
+[2025-10-28 14:50:42] - placement.py - line:69 - INFO: 过期时间:[1761645600000]
+[2025-10-28 14:50:42] - placement.py - line:85 - INFO: 盒子ID：[2664]
+[2025-10-28 14:50:43] - placement.py - line:202 - INFO: 用户列表：[['368390']]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:107 - INFO: 解锁金额列表：[20]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:145 - INFO: 是否区分时区：[1]
+[2025-10-28 14:50:43] - placement.py - line:164 - INFO: 数量：[1]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:186 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:50:43] - placement.py - line:210 - INFO: 用户Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 读取到 1 条投放数据
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 调用的网址：https://preinnerh5.hapabox.club
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 开始时间时间戳：[1761559200000]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 过期时间时间戳：[1761645600000]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 开始时间：['2025 10-27 18:00']
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 过期时间：['2025 10-28 18:00']
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 盒子ID：[2664]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 用户ID：[['368390']]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 解锁金额：[20]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 是否区分时区：[1]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 投放盒子数量：[1]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: Authorization：NDk6NDM1MjFQOE5zeUFrc0M4enQwSEJCVW4xNTMw
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 开始处理第 1 条数据（索引：0）
+[2025-10-28 14:50:43] - placement.py - line:42 - INFO: 需要投放的时间：2025 10-27 18:00，时间戳是：1761559200000
+[2025-10-28 14:50:43] - placement.py - line:47 - INFO: 开始时间:[1761559200000]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: [1761559200000]
+[2025-10-28 14:50:43] - placement.py - line:64 - INFO: 过期的时间：2025 10-28 18:00，时间戳是：1761645600000
+[2025-10-28 14:50:43] - placement.py - line:69 - INFO: 过期时间:[1761645600000]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: [1761645600000]
+[2025-10-28 14:50:43] - placement.py - line:85 - INFO: 盒子ID：[2664]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:107 - INFO: 解锁金额列表：[20]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:145 - INFO: 是否区分时区：[1]
+[2025-10-28 14:50:43] - placement.py - line:164 - INFO: 数量：[1]
+[2025-10-28 14:50:43] - placement.py - line:126 - INFO: 是否需要解锁：['true']
+[2025-10-28 14:50:43] - placement.py - line:186 - INFO: 解锁类型：['top_up']
+[2025-10-28 14:50:43] - placement.py - line:202 - INFO: 用户列表：[['368390']]
+[2025-10-28 14:50:43] - test_release.py - line:21 - INFO: 参数 1：开始时间=[1761559200000], 过期时间=[1761645600000], 盒子ID=2664, 解锁金额=20, 是否解锁=true, 时区类型=1, 数量=1, 解锁类型=top_up, 用户ID=['368390']
+[2025-10-28 14:50:44] - test_release.py - line:21 - INFO: 状态码 1：400
+[2025-10-28 14:50:44] - test_release.py - line:23 - ERROR: 数据错误或为空：Expecting value: line 1 column 1 (char 0)

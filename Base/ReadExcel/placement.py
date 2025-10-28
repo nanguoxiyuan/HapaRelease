@@ -32,6 +32,7 @@ class Placement:
         ws = pla.active
         planum = self.placement_num(excel_path)
         beginTime_list = []
+        original_beginTime_list = []
         for i in range(2,planum+2):
             try:
                 df = ws.cell(row=i,column=4).value
@@ -40,10 +41,11 @@ class Placement:
                 timestamp_milliseconds = int(timestamp_seconds * 1000)
                 log.info(f'需要投放的时间：{df}，时间戳是：{timestamp_milliseconds}')
                 beginTime_list.append(timestamp_milliseconds)
+                original_beginTime_list.append(df)
             except Exception as e:
                 log.error(f'读取需要投放的时间失败,{e}')
         log.info(f'开始时间:{beginTime_list}')
-        return beginTime_list
+        return beginTime_list,original_beginTime_list
 
     # 过期时间
     def expireTime(self,excel_path):
@@ -52,6 +54,7 @@ class Placement:
         ws = pla.active
         planum = self.placement_num(excel_path)
         expireTime_list = []
+        original_expireTime_list = []
         for i in range(2, planum + 2):
             try:
                 df = ws.cell(row=i, column=5).value
@@ -60,10 +63,11 @@ class Placement:
                 timestamp_milliseconds = int(timestamp_seconds * 1000)
                 log.info(f'过期的时间：{df}，时间戳是：{timestamp_milliseconds}')
                 expireTime_list.append(timestamp_milliseconds)
+                original_expireTime_list.append(df)
             except Exception as e:
                 log.error(f'读取过期的时间失败,{e}')
         log.info(f'过期时间:{expireTime_list}')
-        return expireTime_list
+        return expireTime_list,original_expireTime_list
 
     # 盒子ID
     def itemId(self,excel_path):

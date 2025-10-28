@@ -28,7 +28,31 @@ class Testcase_release:
             # 若原 Placement 只支持文件路径，需修改其方法（例如用 BytesIO 包装）
             authorization = self.plac.Authorization(self.excel_bytes)
             placementnum = self.plac.placement_num(self.excel_bytes)
+            begin_Time,origin_be_time = self.plac.beginTime(self.excel_bytes)
+            expire_Time,origin_ex_time = self.plac.expireTime(self.excel_bytes)
+            item_Id = self.plac.itemId(self.excel_bytes)
+            userId_List = self.plac.userIdList(self.excel_bytes)
+            need_Amount = self.plac.needAmount(self.excel_bytes)
+            need_Unlock = self.plac.needUnlock(self.excel_bytes)
+            send_type = self.plac.sendType(self.excel_bytes)
+            total_Count = self.plac.totalCount(self.excel_bytes)
+            unlock_Type = self.plac.unlockType(self.excel_bytes)
+            Authorization = self.plac.Authorization(self.excel_bytes)
             self._log_to_web(f"读取到 {placementnum} 条投放数据")
+            self._log_to_web(f'调用的网址：{self.host}')
+            self._log_to_web(f'开始时间时间戳：{begin_Time}')
+            self._log_to_web(f'过期时间时间戳：{expire_Time}')
+            self._log_to_web(f'开始时间：{origin_be_time}')
+            self._log_to_web(f'过期时间：{origin_ex_time}')
+            self._log_to_web(f'盒子ID：{item_Id}')
+            self._log_to_web(f'用户ID：{userId_List}')
+            self._log_to_web(f'解锁金额：{need_Amount}')
+            self._log_to_web(f'是否需要解锁：{need_Unlock}')
+            self._log_to_web(f'是否区分时区：{send_type}')
+            self._log_to_web(f'投放盒子数量：{total_Count}')
+            self._log_to_web(f'解锁类型：{unlock_Type}')
+            self._log_to_web(f'Authorization：{Authorization}')
+
 
             # 循环调用接口
             for i in range(1, placementnum + 1):
@@ -37,7 +61,9 @@ class Testcase_release:
 
                 # 读取 Excel 中的参数（复用原逻辑）
                 btime = self.plac.beginTime(self.excel_bytes)[ind]
+                self._log_to_web(f'{btime}')
                 etime = self.plac.expireTime(self.excel_bytes)[ind]
+                self._log_to_web(f'{etime}')
                 itemid = self.plac.itemId(self.excel_bytes)[ind]
                 amount = self.plac.needAmount(self.excel_bytes)[ind]
                 lock = self.plac.needUnlock(self.excel_bytes)[ind]
